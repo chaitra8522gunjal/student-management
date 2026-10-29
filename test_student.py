@@ -13,7 +13,7 @@ class TestStudentManagement(unittest.TestCase):
         self.assertEqual(student["marks"], 85)
 
     def test_student_passes(self):
-        self.assertEqual(get_result(85), "Fail")
+        self.assertEqual(get_result(85), "Pass")
 
     def test_student_fails(self):
         self.assertEqual(get_result(28), "Fail")

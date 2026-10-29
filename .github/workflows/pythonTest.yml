@@ -20,3 +20,6 @@ jobs:
 
       - name: Run tests
         run: python -m unittest -v
+
+      - name: Build Docker image
+        run: docker build -t student-management 

@@ -22,4 +22,4 @@ jobs:
         run: python -m unittest -v
 
       - name: Build Docker image
-        run: docker build -t student-management 
+        run: docker build -t student-management . 

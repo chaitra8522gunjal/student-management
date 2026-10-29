@@ -17,6 +17,7 @@ def add_student(name, marks):
     students.append(student)
     return student
 
+# Determines whether a student passes or failsgit add student.py
 
 def get_result(marks):
     if not 0 <= marks <= 100:

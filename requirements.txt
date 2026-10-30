@@ -1,0 +1,12 @@
+
+fastapi
+uvicorn
+
+
+
+
+
+# Ye file batati hai ki project ko kaun-kaun se Python packages chahiye.
+# Jab hum Docker image banayenge, Docker in packages ko container ke andar install karega.
+#  Isse tumhari API sirf tumhare computer par hi nahi,
+#  balki doosre compatible computers aur servers par bhi run ki ja sakti hai.
